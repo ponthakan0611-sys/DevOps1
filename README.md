@@ -16,22 +16,6 @@
 body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,sans-serif;line-height:1.7}
 .wrap{max-width:56rem;margin:0 auto;padding:0 1.5rem}
 
-.hero{min-height:100vh;display:flex;align-items:center;padding:3rem 0}
-.profile{display:flex;align-items:center;gap:2.5rem;padding:2.5rem;border:1px solid var(--line);background:var(--surface)}
-.photo{flex:0 0 240px;width:240px;height:300px;padding:6px;border:2px solid var(--gold)}
-.photo img{width:100%;height:100%;object-fit:cover;display:block;background:#1a1610}
-.info{flex:1;min-width:0}
-.name{font-size:clamp(2rem,5vw,3.5rem);margin:0 0 1.25rem;color:var(--gold)}
-.meta{display:flex;flex-wrap:wrap;gap:.75rem;margin:0;padding:0;list-style:none}
-.meta li{padding:.35rem 1rem;border:1px solid var(--line)}
-
-@media(max-width:760px){
-  .profile{flex-direction:column;text-align:center;padding:2rem 1.25rem;gap:1.5rem}
-  .photo{flex:none;width:200px;height:250px}
-  .meta{justify-content:center}
-}
-
-footer{padding:2rem 0;text-align:center;color:var(--text);font-size:.9rem;border-top:1px solid var(--line)}
 </style>
 </head>
 <body>
@@ -40,7 +24,7 @@ footer{padding:2rem 0;text-align:center;color:var(--text);font-size:.9rem;border
   <div class="wrap">
     <div class="profile">
       <div class="photo">
-        <img src="profile.jpg" alt="รูปโปรไฟล์ สมชาย">
+        <img src="66420e26-4243-46bd-a1bb-0f84b9c49994.jpg" alt=>
       </div>
       <div class="info">
         <h1 class="name">พลธกานต์</h1>
