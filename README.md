@@ -5,40 +5,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>แนะนำตัว</title>
 <style>
-:root{
-  --bg:#000;
-  --surface:#0e0c08;
-  --text:#efe6d2;
-  --gold:#d4af37;
-  --line:rgba(212,175,55,.35);
-}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,sans-serif;line-height:1.7}
-.wrap{max-width:56rem;margin:0 auto;padding:0 1.5rem}
-
+body{margin:0;background:#000;color:#efe6d2;font-family:system-ui,sans-serif;font-style:italic}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem}
+.profile{display:flex;flex-direction:row;align-items:center;gap:2rem;padding:2rem;border:1px solid #d4af37;background:#0e0c08}
+.photo{width:200px;height:250px;border:2px solid #d4af37;padding:4px}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.name{margin:0 0 1rem;color:#d4af37;font-size:2.5rem}
+.meta{display:flex;flex-direction:row;gap:.75rem;margin:0 0 1.25rem;padding:0;list-style:none}
+.meta li{padding:.35rem .9rem;border:1px solid #d4af37}
+.github{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem .9rem;border:1px solid #d4af37;color:#efe6d2;text-decoration:none}
+.github img{width:22px;height:22px;border-radius:50%;background:#fff;padding:2px}
 </style>
 </head>
 <body>
 
 <header class="hero">
-  <div class="wrap">
-    <div class="profile">
-      <div class="photo">
-        <img src="66420e26-4243-46bd-a1bb-0f84b9c49994.jpg" alt=>
-      </div>
-      <div class="info">
-        <h1 class="name">พลธกานต์</h1>
-        <ul class="meta">
-          <li><strong>ชื่อ-สกุล:</strong> พลธกานต์ ผดุงพล</li>
-          <li><strong>สถานะ:</strong> นักศึกษาระดับชั้น ปวส.2</li>
-          <li><strong>อายุ:</strong> 20 ปี</li>
-        </ul>
-      </div>
+  <div class="profile">
+    <div class="photo">
+      <img src="profile.jpg" alt="">
+    </div>
+    <div>
+      <h1 class="name"><em>สมชาย</em></h1>
+      <ul class="meta">
+        <li>ชื่อ: <em>สมชาย</em></li>
+        <li>สถานะ: <em>โสด</em></li>
+        <li>อายุ: <em>28 ปี</em></li>
+      </ul>
+      <a class="github" href="https://github.com/ponthakan0611-sys/DevOps1">
+        <img src="github.png" alt="">
+        <span><em>GitHub</em></span>
+      </a>
     </div>
   </div>
 </header>
-
-<footer>© 2026 สมชาย</footer>
 
 </body>
 </html>
