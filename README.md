@@ -1,7 +1,7 @@
 <header class="hero">
   <div class="profile">
     <div class="photo">
-      <img src="index.jpg" alt="">
+      <img src="66420e26-4243-46bd-a1bb-0f84b9c49994.jpg" alt="">
     </div>
     <div>
       <h1 class="name"><em>นายพลธกานต์ ผดุงพล</em></h1>
